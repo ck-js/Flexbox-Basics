@@ -36,9 +36,9 @@ height: 180px;
         background-color: #505000;     
     border: 2px dashed #008b8b;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     
-    }
+}
     
     .flex-container-3 .flex-item {
         border: 2px dashed #292900;
