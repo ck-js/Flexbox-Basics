@@ -32,3 +32,18 @@ height: 180px;
     
     }
     
+    .flex-container-3 {
+        background-color: #505000;     
+    border: 2px dashed #008b8b;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .flex-container-3 .flex-item {
+        border: 2px dashed #292900;
+        margin: 10px;
+        
+        
+        }
+        
