@@ -6,15 +6,18 @@ const columnReverseButton = document.querySelector("column-reverse-button");
 
 
 function changeRow() {
-    el.classList.add("flex-row");
+    el.classList.toggle("flex-row");
+el.removeEventListener("click", changeRow);
+
 }
 
 function changeRowReverse() {
-    el.classList.add("flex-row-reverse");
+    el.classList.toggle("flex-row-reverse");
+
 }
 
 function changeColumn() {
-    el.classList.add("flex-column");
+    el.classList.toggle("flex-column");
 }
 
 
