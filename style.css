@@ -32,6 +32,21 @@ height: 180px;
     
     }
     
+.button-container-3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #505000;
+ justify-content: center;
+width: auto;
+}
+
+.button-container-3 button {
+    background-color: #505000;
+border: 1px solid #008b8b; 
+height:40px;;
+}
+
+
     .flex-container-3 {
         background-color: #505000;     
     border: 2px dashed #008b8b;
